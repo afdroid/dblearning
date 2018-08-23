@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ExamsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_quiz_unit_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/string_quiz_btn_unit_one"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/btn_quiz_unit_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/string_quiz_btn_unit_two"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background"/>
+        <Button
+            android:id="@+id/btn_quiz_unit_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/string_quiz_unit_three"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background"/>
+        <Button
+            android:id="@+id/btn_quiz_unit_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/string_quiz_unit_four"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background"/>
+        <Button
+            android:id="@+id/btn_quiz_unit_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/string_quiz_unit_five"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background"/>
+
+    </LinearLayout>
+
+</FrameLayout>

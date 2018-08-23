@@ -1,0 +1,292 @@
+<resources>
+
+    <!--AppName-->
+
+    <string
+        name="app_name">DB Learning</string>
+
+    <!--SplashScreen-->
+
+    <string
+        name="string_splash_preferences">MyPreferences</string>
+    <string
+        name="string_splash_flag">flag</string>
+
+    <!--Introduction-->
+
+    <string
+        name="string_intro_btn_prev">Anterior</string>
+    <string
+        name="string_intro_btn_next">Siguiente</string>
+    <string
+        name="string_intro_btn_skip">Omitir</string>
+    <string
+        name="string_intro_btn_close">Salir</string>
+    <string
+        name="string_intro_adapter_title">Título</string>
+    <string
+        name="string_intro_adapter_desc">Descripción</string>
+
+    <!--ArregloTitles-->
+
+    <string
+        name="string_intro_title_one">Objetivo</string>
+    <string
+        name="string_intro_title_two">Contenido</string>
+    <string
+        name="string_intro_title_three">Videos</string>
+    <string
+        name="string_intro_title_four">Entretenimiento</string>
+
+    <!--ArregloDescriptions-->
+
+    <string
+        name="string_intro_desc_one">En esta aplicación aprenderás Bases de Datos desde cero de una manera interactivia y entretenida.</string>
+    <string
+        name="string_intro_desc_two">Dentro de la aplicación podrás encontrar contenido que te ayudará a reforzar tus conocimientos en cuanto a Bases de datos.</string>
+    <string
+        name="string_intro_desc_three">Aquí encontrarás una serie de videos que te ayudarán a entender mejor el contenido.</string>
+    <string
+        name="string_intro_desc_four">¡Juega mientras aprendes!</string>
+
+    <!--Login-->
+
+    <string
+        name="string_login_start_session">Iniciar sesión</string>
+    <string
+        name="string_login_btn_new_register">Registrarse</string>
+    <string
+        name="string_login_btn_sign_in">Entrar</string>
+    <string
+        name="string_login_progress_sign_in">Ingresando...</string>
+    <string
+        name="string_login_wellcome_message">¡Bienvenido!</string>
+
+    <!--Register-->
+
+    <string
+        name="string_new_register_name">Nombre</string>
+    <string
+        name="string_new_register_email">Correo</string>
+    <string
+        name="string_new_register_pass">Contraseña</string>
+    <string
+        name="string_new_register_title">Registro</string>
+    <string
+        name="string_new_register_desc">Crea una nueva cuenta de usuario en DB Learning</string>
+    <string
+        name="string_new_register_btn_register">Registrar</string>
+    <string
+        name="string_new_register_btn_cancel">Cancelar</string>
+
+    <!--Wellcome-->
+
+    <string
+        name="string_main_menu_entertainment">Entretenimiento</string>
+    <string
+        name="string_main_menu_exams">Exámenes</string>
+    <string
+        name="string_main_menu_videos">Videos</string>
+    <string
+        name="string_main_menu_about_of">Acerca de...</string>
+    <string
+        name="open">Open</string>
+    <string
+        name="close">Close</string>
+
+    <!--Wellcome-->
+
+    <string
+        name="string_header_user_name">Nombre del usuario</string>
+    <string
+        name="string_header_user_email">Correo electrónico</string>
+
+    <!--Profile-->
+
+    <string
+        name="string_profile_alert_title">Cambiar nombre</string>
+    <string
+        name="string_profile_alert_edit_text">Nuevo nombre</string>
+    <string
+        name="string_profile_alert_dialog">Este campo no puede estar vacío</string>
+    <string
+        name="string_profile_activity_name">Mi perfil</string>
+    <string
+        name="string_profile_select_app">Seleccione la aplicación</string>
+    <string
+        name="string_profile_alert_title_progress">Subiendo...</string>
+    <string
+        name="string_profile_alert_message">Espere un momento.</string>
+    <string
+        name="string_profile_error_message">Error al cargar la imágen</string>
+    <string
+        name="string_profile_success_message">¡Imagen cargada con éxito!</string>
+    <string
+        name="string_profile_btn_change_photo">Cambiar foto de perfil</string>
+    <string
+        name="string_profile_btn_change_name">Cambiar nombre</string>
+    <string
+        name="string_profile_lbl_user_email">Example@gmail.com</string>
+    <string
+        name="string_profile_lbl_user_name">Usuario</string>
+    <string
+        name="string_profile_lbl_email">Correo electrónico: </string>
+    <string
+        name="string_profile_lbl_name">Nombre de usuario: </string>
+
+    <!--AlertDialogs-->
+
+    <string
+        name="string_alert_can_not_sign_in">No se pudo iniciar sesión</string>
+    <string
+        name="string_alert_can_not_close_session">No se pudo cerrar sesión</string>
+    <string
+        name="string_alert_can_not_fi_b_auth">No se pudo autenticar con firebase</string>
+    <string
+        name="string_alert_no_internet_connection">Error, ¡Sin conexión a internet!</string>
+    <string
+        name="string_alert_user_already_exists">El usuario que deseas registrar ya existe</string>
+    <string
+        name="string_alert_fatal_error">Error al ingresar</string>
+    <string
+        name="string_alert_users_is_not_exist">El usuario que ingresaste no está registrado</string>
+    <string
+        name="message_login">Uno o más campos están vacios</string>
+    <string
+        name="string_alert_successful_message">¡Se ha registrado el usuario exitosamente!</string>
+    <string
+        name="string_alert_process_message">Registrando usuario...</string>
+
+    <!--Restrictions-->
+
+    <string
+        name="string_restriction_message">Campo obligatorio</string>
+    <string
+        name="string_restriction_email">Debes ingresar un correo válido</string>
+    <string
+        name="string_restriction_pass">La contraseña debe tener por lo menos 7 caracteres</string>
+    <string
+        name="string_restriction_is_not_pass">Falta ingresar la contraseña</string>
+
+    <!--Entertainment-->
+
+    <string
+        name="string_entertainment_lbl_title">Lista de juegos</string>
+    <string
+        name="string_entertainment_action_bar_title">Entretenimiento</string>
+    <string
+        name="string_entertainment_lbl_name">Completa la consulta</string>
+    <string
+        name="string_entertainment_btn_name">Completa la consulta</string>
+    <string
+        name="string_game_guess_action_bar_title">Completa la consulta</string>
+    <string
+        name="string_game_guess_lbl_points">Puntos:</string>
+    <string
+        name="string_game_guess_lbl_lifes">Vidas:</string>
+    <string
+        name="string_game_guess_hint_text">Ingrese la sentencia</string>
+    <string
+        name="string_game_guess_edt_txt_hint">Ingrese el resultado de la consulta</string>
+    <string
+        name="string_game_guess_btn_confirm_message">Verificar</string>
+    <string
+        name="string_game_guess_message_correct">Correcto</string>
+    <string
+        name="string_game_guess_message_incorrect">Incorrecto</string>
+    <string
+        name="string_game_guess_lbl_initial_points">Puntos: 0</string>
+    <string
+        name="string_game_guess_lbl_initial_lifes">Vidas: 3</string>
+    <string
+        name="string_game_guess_btn_play_game">Jugar</string>
+    <string
+        name="string_game_guess_alert_message">El juego ha finalizado, tu puntuación fue de: </string>
+    <string
+        name="string_game_guess_btn_confirm">Nuevo juego</string>
+    <string
+        name="string_game_guess_btn_cancel">Salir</string>
+
+    <!--Glossary-->
+
+    <string
+        name="string_glossary_action_bar_title">Glosario de términos</string>
+    <string
+        name="string_glossary_details_lbl_desc">Descripción:</string>
+
+    <!--Exams-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="string_quiz_btn_unit_one">Unidad 1</string>
+    <string name="quiz">Quiz</string>
+    <string name="TitleUnitFive">Vistas</string>
+    <string name="TitleUnitOne">Introducción a las BD</string>
+    <string name="TitleUnitTwo">Tablas y registros</string>
+    <string name="TitleUnitThree">Lenguaje SQL</string>
+    <string name="TitleUnitFour">Consultas y subconsultas</string>
+    <string name="wellcome_title">Inicio</string>
+    <string name="introduction_to_database">Introducciòn a las bases de datos</string>
+    <string name="unit_one">Unidad 1</string>
+    <string name="current_uses">Usos más comunes</string>
+    <string name="examples">Ejemplos</string>
+    <string name="questions">Preguntas</string>
+    <string name="principal_menu">Menú principal</string>
+    <string name="example_content">
+        Qué es una base de datos Una base de datos (cuya abreviatura es BD) es una entidad en la cual se pueden almacenar datos de manera estructurada, con la menor redundancia posible.
+        Diferentes programas y diferentes usuarios deben poder utilizar estos datos. Por lo tanto, el concepto de base de datos generalmente está relacionado con el de red, ya que se debe poder compartir esta información.
+        Generalmente se habla de un \"Sistema de información\" para designar a la estructura global que incluye todos los mecanismos para compartir datos.</string>
+    <string name="example_title">¿Qué es una base de datos?</string>
+    <string name="string_quiz_lbl_correct">Correcto</string>
+    <string name="string_quiz_lbl_incorrect">Incorrecto</string>
+    <string name="string_video_lbl_title">Video</string>
+
+    <string name="adivina">ADIVINA</string>
+    <string name="empezar">EMPEZAR</string>
+    <string name="acerda_de">ACERDA DE</string>
+    <string name="puntuaci_n_mas_alta">Puntuación mas alta</string>
+    <string name="ingrese_el_nombre">Ingrese el nombre</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="By">Hecho por:</string>
+    <string name="creador">Beicker Ranzet Velasco Anco</string>
+    <string name="maxpuntuacion">Máxima Puntuación</string>
+    <string name="imagenaleatoria">imagenaleatoria</string>
+    <string name="vidainicial">Vidas: 3</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="acerca">Acerca</string>
+    <string name="repuestas">Repuestas</string>
+    <string name="ingrese_el_resultado_de_la_consulta">Ingrese</string>
+
+    <string name="string_quiz_btn_unit_two">UNIDAD 2</string>
+    <string name="string_quiz_unit_three">UNIDAD 3</string>
+    <string name="string_quiz_unit_four">UNIDAD 4</string>
+    <string name="string_quiz_unit_five">UNIDAD 5</string>
+    <string name="string_quiz_one_action_bar_title">Cuestionario Unidad 1</string>
+    <string name="string_quiz_two_action_bar_title">Cuestionario Unidad 2</string>
+    <string name="string_quiz_three_action_bar_title">Cuestionario Unidad 3</string>
+    <string name="string_quiz_four_action_bar_title">Cuestionario Unidad 4</string>
+    <string name="string_quiz_five_action_bar_title">Cuestionario Unidad 5</string>
+    <string name="string_news_title">Título</string>
+    <string name="string_news_description">Descripción</string>
+    <string name="string_news_publisher_name">Andro4all</string>
+    <string name="string_quiz_lbl_punctuation">Puntuación:</string>
+    <string name="string_quiz_alert_message_one">Quiz finalizado, tu puntuación fue de:</string>
+    <string name="string_quiz_alert_message_two">puntos de un total de 10</string>
+    <string name="string_quiz_alert_btn_accept">Intentar de nuevo</string>
+    <string name="string_quiz_alert_btn_cancel">Salir</string>
+    <string name="string_profile_alert_btn_confirm">Confirmar</string>
+    <string name="string_profile_alert_btn_cancel">Cancelar</string>
+    <string name="string_content_units_lbl_title">Title</string>
+    <string name="string_video_alert_positive">Salir</string>
+    <string name="string_content_lbl_desc">Descripción:</string>
+    <string name="string_content_lbl_title">Unidad 1</string>
+    <string name="string_lbl_about_of_history_title">Un poco de historia...</string>
+    <string name="string_lbl_about_of_history_desc">Somos estudiantes de ingeniería en la  UTNG, y desarrollamos esta aplicación  con el objetivo de darle a los alumnos  una nueva alternativa de aprendizaje  en la materia de Base de Datos.</string>
+    <string name="string_about_of_developers">Desarrolladores:   - Miguel Ángel Juárez Guerrero - María de los Ángeles Rioyos Herrera - Luis Ángel Velázquez Jiménez   Copyleft 2018</string>
+    <string name="string_help_btn_next">Siguiente tip</string>
+    <string name="string_help_btn_prev">Tip anterior</string>
+    <string name="string_help_btn_exit">Salir</string>
+
+</resources>

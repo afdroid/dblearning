@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".login.LoginActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/logo_application"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_middle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_gravity="center"
+                        android:text="@string/string_login_start_session"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryText"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center">
+
+                        <EditText
+                            android:id="@+id/edt_txt_login_email"
+                            android:elevation="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="@string/string_new_register_email"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="15dp"
+                            android:textSize="20sp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center">
+
+                        <EditText
+                            android:id="@+id/edt_txt_login_pass"
+                            android:elevation="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:ems="10"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="@string/string_new_register_pass"
+                            android:inputType="textPassword"
+                            android:paddingLeft="15dp"
+                            android:textSize="20sp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/btn_sign_in"
+                        android:layout_marginBottom="5dp"
+                        android:elevation="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:ems="14"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/button_background"
+                        android:fontFamily="sans-serif-light"
+                        android:textStyle="bold"
+                        android:text="@string/string_login_btn_sign_in"
+                        android:textColor="@color/colorLightPrimary"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_bottom"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_new_register"
+                        android:elevation="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:ems="14"
+                        android:background="@drawable/button_background"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/string_login_btn_new_register"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorLightPrimary"/>
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/btn_sign_in_google"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/google_bg"/>
+
+                    <ProgressBar
+                        android:id="@+id/progressBarSignInGoogle"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

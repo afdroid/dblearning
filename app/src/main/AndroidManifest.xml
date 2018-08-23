@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.dblearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_application"
+        android:label="DB Learning"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".notifications.FirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".splashScreen.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".introduction.IntroductionActivity" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".wellcome.WellcomeActivity"
+            android:parentActivityName=".login.LoginActivity" />
+        <activity
+            android:name=".quizUnits.QuizUnitOneActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+
+        <service
+            android:name=".notifications.MyService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".content.ContentActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity
+            android:name=".content.UnitsActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity
+            android:name=".glossary.GlossaryActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity android:name=".glossary.DetailsGlossary" />
+        <activity android:name=".entertainment.GameGuessActivity" />
+        <activity android:name=".entertainment.PlayGameGuessActivity" />
+        <activity
+            android:name=".quizUnits.QuizUnitTwoActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity
+            android:name=".quizUnits.QuizUnitThreeActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity
+            android:name=".quizUnits.QuizUnitFourActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity
+            android:name=".quizUnits.QuizUnitFiveActivity"
+            android:parentActivityName=".wellcome.WellcomeActivity" />
+        <activity
+            android:name=".help.HelpActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".help.SlideAdapterHelp" />
+    </application>
+
+</manifest>

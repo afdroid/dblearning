@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:id="@+id/layout_middle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:layout_gravity="center"
+            android:text="@string/string_new_register_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryText"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider"
+            android:layout_marginTop="11dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center"
+        android:text="@string/string_new_register_desc"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edt_txt_register_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/string_new_register_name"
+        android:inputType="textCapWords"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edt_txt_register_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/string_new_register_email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edt_txt_register_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/string_new_register_pass"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+    <Button
+        android:id="@+id/btn_register_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:ems="7"
+        android:background="@drawable/button_background"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="@string/string_new_register_btn_register"
+        android:textColor="@color/colorLightPrimary"/>
+        <Button
+            android:id="@+id/btn_register_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:ems="7"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_background"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="@string/string_new_register_btn_cancel"
+            android:textColor="@color/colorLightPrimary"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

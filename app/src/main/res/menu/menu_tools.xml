@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/start"
+        android:title="Inicio" android:icon="@drawable/icono_main_menu_start"></item>
+    <item
+        android:id="@+id/profile"
+        android:title="Mi perfil" android:icon="@drawable/icono_main_menu_profile"></item>
+    <item
+        android:id="@+id/games"
+        android:title="Entretenimiento" android:icon="@drawable/icono_main_menu_entertainment"></item>
+    <item
+        android:id="@+id/glosary"
+        android:title="Glosario de términos" android:icon="@drawable/icono_main_menu_glossary"></item>
+    <item
+        android:id="@+id/exams"
+        android:title="Exámenes" android:icon="@drawable/icono_main_menu_exams"></item>
+    <item
+        android:id="@+id/videos"
+        android:title="Videos" android:icon="@drawable/icono_main_menu_videos"></item>
+    <item
+        android:id="@+id/help"
+        android:title="Ayuda" android:icon="@drawable/icono_main_menu_help"></item>
+    <item
+        android:id="@+id/about"
+        android:title="Acerca de..." android:icon="@drawable/icono_main_menu_about_of"></item>
+    <item
+        android:id="@+id/logOut"
+        android:title="Cerrar sesión" android:icon="@drawable/icono_main_menu_logout"></item>
+</menu>

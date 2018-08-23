@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "213818764923",
+    "firebase_url": "https://fir-57315.firebaseio.com",
+    "project_id": "fir-57315",
+    "storage_bucket": "fir-57315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213818764923:android:37b5615087ab8f55",
+        "android_client_info": {
+          "package_name": "project.dblearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213818764923-7i4kupbe5sahr410lohad85ng40cio01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.dblearning",
+            "certificate_hash": "3864af98edad10ef8aae2686f15366c5d75d4261"
+          }
+        },
+        {
+          "client_id": "213818764923-k5inq7klika3a3tlaej7cfbn071bj4cd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "213818764923-k5inq7klika3a3tlaej7cfbn071bj4cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs4LXMv-cs-jZioZkA1GmBPqhctq4Yxzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213818764923-k5inq7klika3a3tlaej7cfbn071bj4cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

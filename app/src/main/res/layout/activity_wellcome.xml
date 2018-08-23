@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_wellcome_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".wellcome.WellcomeActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_wellcome_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </FrameLayout>
+
+    <android.support.design.widget.NavigationView
+        app:headerLayout="@layout/item_main_menu_header"
+        android:id="@+id/nav_vw_lateral_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_intro"
+        app:itemTextColor="@color/colorTextIcons"
+        app:itemIconTint="@color/colorTextIcons"
+        app:menu="@menu/menu_tools"
+        android:layout_gravity="start">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

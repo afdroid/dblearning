@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorLightPrimary">#B3E5FC</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <color name="colorSecondary">#03DAC5</color>
+    <item name="yellow" type="color">#FFC300</item>
+    <item name="coral" type="color">#FF5733</item>
+    <item name="green" type="color">#27AE60</item>
+    <item name="blueDark" type="color">#34495E</item>
+    <item name="purple" type="color">#321C79</item>
+    <item name="gray" type="color">#839192</item>
+    <item name="blue" type="color">#21618C</item>
+    <item name="blueBlack" type="color">#273746</item>
+    <item name="white" type="color">#ffffff</item>
+    <item name="gradStop" type="color">#900C3F</item>
+    <item name="gradStart" type="color">#581845</item>
+    <item name="black" type="color">#FF000000</item>
+    <item name="lightBlue" type="color">#FF3AEDCD</item>
+    <color name="transparentWhite">#CCCCCC</color>
+
+    <integer-array name = "initial_colors_glossary">
+        <item>@color/yellow</item>
+        <item>@color/coral</item>
+        <item>@color/green</item>
+        <item>@color/blueDark</item>
+        <item>@color/purple</item>
+        <item>@color/gray</item>
+        <item>@color/blue</item>
+        <item>@color/blueBlack</item>
+    </integer-array>
+</resources>
